@@ -1,0 +1,31 @@
+@import "../../lib/variables.scss";
+
+.navlink {
+	width: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	svg {
+		min-width: 8.06px;
+		min-height: 10px;
+		margin-right: 5px;
+	}
+
+	// .navlink__text
+	&__text {
+		color: $notActiveLink;
+		font-weight: 400;
+		line-height: 17px;
+		font-size: 1.2727rem;
+	}
+}
+
+.active {
+	.navlink__text {
+		color: $activeLink;
+	}
+
+	border-bottom: 3px solid $sun;
+}
