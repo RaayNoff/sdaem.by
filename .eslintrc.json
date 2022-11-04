@@ -1,5 +1,6 @@
 {
-  "extends": ["react-app", "react-app/jest"],
+  "extends": "next/core-web-vitals",
+
   "rules": {
     "no-console": "warn",
     "quotes": ["error", "double"],
@@ -22,6 +23,8 @@
         ]
       }
     ],
-    "camelcase": "error"
+    "camelcase": "error",
+    "@next/next/no-document-import-in-page": "off",
+    "@next/next/no-title-in-document-head": "off"
   }
 }
