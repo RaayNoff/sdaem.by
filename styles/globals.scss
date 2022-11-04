@@ -1,2 +1,14 @@
 @import "./lib/nullstyle";
-@import "./lib/fonts";
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 11px;
+}
+
+.container {
+	max-width: 1281px;
+	padding: 0 1305px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
