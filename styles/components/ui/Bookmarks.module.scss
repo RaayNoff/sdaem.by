@@ -1,0 +1,13 @@
+@import "../../lib/variables.scss";
+.bookmarks {
+	display: flex;
+	align-items: center;
+
+	&__text {
+		font-weight: 500;
+		font-size: 1.2727rem;
+		line-height: 17px;
+		color: #8291a3;
+		margin-right: 11px;
+	}
+}
