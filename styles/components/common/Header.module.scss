@@ -1,0 +1,93 @@
+@import "../../lib/variables.scss";
+.header {
+	&__main {
+		height: 40px;
+		width: 100%;
+		background-color: #f8f8f8;
+	}
+
+	&__sub {
+	}
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__container {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__navigation {
+		width: 724px;
+		justify-content: space-between;
+		display: flex;
+	}
+
+	&__controls {
+	}
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&__bookmarks {
+		margin-right: 40px;
+	}
+
+	&__auth {
+		color: $purple;
+		font-size: 1.2727rem;
+		line-height: 17px;
+		font-weight: 500;
+		font-style: normal;
+	}
+}
+
+.sub {
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+	height: 60px;
+	&__container {
+		width: 100%;
+		height: 100%;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+	}
+
+	&__categories {
+	}
+
+	&__button {
+		background: linear-gradient(90deg, #9d94ff 0%, #6b50e9 94.5%);
+		border-radius: 19px;
+
+		text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+		color: #fff;
+		font-weight: 700;
+		font-size: 1.2727rem;
+		line-height: 17px;
+		padding: 10px 21px;
+	}
+}
+
+.categories {
+	width: 746.09px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__item {
+	}
+}
