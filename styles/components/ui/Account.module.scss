@@ -1,0 +1,19 @@
+@import "../../lib/variables.scss";
+
+.account {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 116px;
+
+	&__picture {
+		border-radius: 100%;
+	}
+
+	&__name {
+		font-weight: 500;
+		font-size: 1.2727rem;
+		line-height: 17px;
+		color: $black;
+	}
+}
