@@ -7,11 +7,13 @@ import Header from "../common/Header.component";
 interface IMainLayoutProps {
   children?: React.ReactNode;
   title?: string;
+  selfClassName?: string;
 }
 
 const MainLayout: FC<IMainLayoutProps> = ({
   title = "SDAEM.BY | News",
   children,
+  selfClassName,
 }) => {
   return (
     <>
@@ -19,7 +21,7 @@ const MainLayout: FC<IMainLayoutProps> = ({
         <title>{title}</title>
       </Head>
       <Header />
-      <main>{children}</main>
+      <main className={selfClassName}>{children}</main>
       <Footer />
     </>
   );
