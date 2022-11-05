@@ -1,0 +1,27 @@
+@import "../../lib/variables.scss";
+
+.pages {
+	width: 222px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: $gray;
+	font-size: 1.6364rem;
+	line-height: 22px;
+
+	// .pages__item
+	&__item {
+	}
+
+	// .page__ellipsis
+	&__ellipsis {
+	}
+}
+
+.active {
+	padding-top: 3px;
+	font-weight: 700;
+	color: #000;
+	border-bottom: 2px solid $sun;
+}
