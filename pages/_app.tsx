@@ -1,5 +1,6 @@
 import "../styles/globals.scss";
 import { Inter } from "@next/font/google";
+
 import type { AppProps } from "next/app";
 
 const inter = Inter();

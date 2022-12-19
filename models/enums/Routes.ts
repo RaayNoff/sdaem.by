@@ -4,4 +4,6 @@ export enum Routes {
   TARIFF = "/tarrifs",
   ADS = "/ads",
   CONTACTS = "/contacts",
+  AUTH = "/auth",
+  REGISTRATION = "/register",
 }

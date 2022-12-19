@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FC, useRef } from "react";
+
 import s from "../../styles/components/ui/Navlink.module.scss";
 import { useActiveLinkRef } from "../../hooks/useActiveLinkRef";
 import SVGSelector, { localSVG } from "../../tools/SVGSelector";

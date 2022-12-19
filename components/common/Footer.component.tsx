@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import s from "../../styles/components/common/Footer.module.scss";
 import belcard from "../../assets/images/payment/belcard.png";
 import mastercard from "../../assets/images/payment/mastercard.png";

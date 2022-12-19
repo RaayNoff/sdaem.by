@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
+
 import s from "../../styles/components/ui/Apartament.module.scss";
 
 interface IApartamentProps {

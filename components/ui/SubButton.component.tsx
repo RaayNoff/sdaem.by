@@ -1,4 +1,5 @@
 import { FC } from "react";
+
 import s from "../../styles/components/ui/SubButton.module.scss";
 import SVGSelector, { localSVG } from "../../tools/SVGSelector";
 

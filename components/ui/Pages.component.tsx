@@ -1,4 +1,5 @@
 import { FC } from "react";
+
 import s from "../../styles/components/ui/Pages.module.scss";
 
 interface IPagesProps {

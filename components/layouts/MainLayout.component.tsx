@@ -1,10 +1,11 @@
 import Head from "next/head";
 import { FC } from "react";
+
 import s from "../../styles/components/layouts/MainLayout.module.scss";
 import Footer from "../common/Footer.component";
 import Header from "../common/Header.component";
 
-interface IMainLayoutProps {
+export interface IMainLayoutProps {
   children?: React.ReactNode;
   title?: string;
   selfClassName?: string;
