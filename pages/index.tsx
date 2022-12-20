@@ -1,14 +1,13 @@
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-
-import { Routes } from "../models/enums/Routes";
+import { General } from "shared/types";
 
 export default function Home() {
-  const router = useRouter();
+	const router = useRouter();
 
-  useEffect(() => {
-    router.push(Routes.NEWS);
-  }, []);
+	useEffect(() => {
+		router.push(General.Route.NEWS);
+	}, []);
 
-  return <></>;
+	return <></>;
 }
