@@ -1,0 +1,30 @@
+.navlink {
+	width: fit-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	svg {
+		min-width: 8.06px;
+		min-height: 10px;
+		margin-right: 5px;
+	}
+
+	&__text {
+		color: var(--gray);
+		font-weight: 400;
+		line-height: 17px;
+		font-size: 1.2727rem;
+	}
+}
+
+.active {
+	padding-top: 12px;
+	padding-bottom: 8px;
+	.navlink__text {
+		color: var(--black);
+	}
+
+	border-bottom: 3px solid var(--sun);
+}

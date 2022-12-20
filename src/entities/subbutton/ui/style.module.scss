@@ -1,0 +1,16 @@
+.subButton {
+	display: flex;
+	align-items: center;
+
+	// .subButton__text
+	&__text {
+		color: var(--black);
+		font-weight: 600;
+		font-size: 1.2727rem;
+		line-height: 17px;
+	}
+
+	svg {
+		margin-left: 15px;
+	}
+}
