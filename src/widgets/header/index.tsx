@@ -11,7 +11,7 @@ import { General } from "shared/types";
 import s from "./index.module.scss";
 
 const Header: FC = () => {
-	const [isAuth, setIsAuth] = useState(true);
+	const [isAuth] = useState(true);
 
 	return (
 		<header className={s.header}>

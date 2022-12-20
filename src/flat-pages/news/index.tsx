@@ -100,7 +100,6 @@ const FlatNews = () => {
 									key={f.id}
 									date={f.date}
 									desc={f.desc}
-									id={f.id}
 									src={f.src}
 									title={f.title}
 								/>

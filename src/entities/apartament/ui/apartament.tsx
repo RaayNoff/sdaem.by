@@ -5,14 +5,13 @@ import { FC } from "react";
 import s from "./style.module.scss";
 
 interface IApartamentProps {
-	id: number;
-	src: any;
+	src: string;
 	title: string;
 	desc: string;
 	date: string;
 }
 
-const Apartament: FC<IApartamentProps> = ({ src, title, desc, date, id }) => {
+const Apartament: FC<IApartamentProps> = ({ src, title, desc, date }) => {
 	return (
 		<article className={s.apart}>
 			<Image

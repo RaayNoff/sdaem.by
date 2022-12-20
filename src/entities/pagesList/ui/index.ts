@@ -1,1 +1,1 @@
-export { default as PagesList } from "./pagesList.tsx";
+export { default as PagesList } from "./pagesList";
